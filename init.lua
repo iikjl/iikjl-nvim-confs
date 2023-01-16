@@ -1,0 +1,17 @@
+-- core 
+require("iikjl.plugins-setup")
+require("iikjl.core.options")
+require("iikjl.core.keymaps")
+require("iikjl.core.colorscheme")
+-- plugins
+require("iikjl.plugins.comment")
+require("iikjl.plugins.nvim-tree")
+require("iikjl.plugins.lualine")
+require("iikjl.plugins.telescope")
+require("iikjl.plugins.nvim-cmp")
+require("iikjl.plugins.lsp.mason")
+require("iikjl.plugins.lsp.lspsaga")
+require("iikjl.plugins.lsp.lspconfig")
+require("iikjl.plugins.lsp.null-ls")
+require("iikjl.plugins.autopairs")
+require("iikjl.plugins.treesitter")
